@@ -1,0 +1,64 @@
+* { 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right, #f1b1b1 , #82e6e8);
+}
+form{
+    background: rgb(131, 130, 130);
+    width: 350px;
+    height: 580px;
+    padding: 75px 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+h1 {
+    text-align: center;
+    margin-bottom: 45px;
+    color: white;
+    font-size: 25px;
+}
+.textBox {
+    border-bottom: 2px solid white;
+    position: relative;
+    margin: 35px 0;
+}
+.textBox input {
+    background: black;
+    border: none;
+    outline: none;
+    text-align: center;
+    width: 100%;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+}
+.addBTN{
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: linear-gradient(to right, #f1b1b1 , #82e6e8);
+    background-size: 200%;
+    color: rgb(58, 58, 119);
+    font-size: 16px;
+}
+.addBTN:hover{
+    background-position: right;
+    font-size: 17px;
+}
+.back {
+    color: antiquewhite;
+    margin-top: 45px;
+    text-align: center;
+}
+.back a {
+    color: black;
+}
